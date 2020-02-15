@@ -43,8 +43,7 @@ class Rational:
                 numer = int(numer/x)
                 denom = int(denom/x)
 
-        if numer == 0:
-            denom = 1
+        if numer == 0: denom = 1
 
         if denom < 0:
             numer = numer * -1
